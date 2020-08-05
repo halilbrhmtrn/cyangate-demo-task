@@ -1,0 +1,56 @@
+body {
+  margin: 0 auto;
+ 
+}
+
+.beverageBtn img {
+  position: absolute;
+  width: 65px;
+  height: 65px;
+  top: -5px;
+  left: -5px;
+  opacity: 0.8;
+}
+
+.beverageBtn {
+  overflow: hidden;
+}
+
+.fade-list-item {
+  animation: fadein 1s;
+}
+@keyframes fadein {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
